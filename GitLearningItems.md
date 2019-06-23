@@ -14,7 +14,7 @@ Provides the ability to version files, code in collaboration with others, create
 	  * Committed means that the data is safely stored in your local database (in the .git directory)
 	  * Modified means that you have changed the file but have not committed it to your database yet (changed in working directory)
 	  * Staged means that you have marked a modified file in its current version to go into your next commit snapshot
-  * The basic Git workflow goes something like this: ([reference](http://git-scm.com/book/en/v2/Getting-Started-Git-Basics)) ([nice graphic](http://git-scm.com/book/en/v2/book/01-introduction/images/areas.png)) ([graphic of Git operations](http://ddayinc.com/tmp/git-operations.png))
+  * The basic Git workflow goes something like this: ([reference](https://git-scm.com/book/en/v2/Getting-Started-Git-Basics)) ([nice graphic](https://git-scm.com/book/en/v2/book/01-introduction/images/areas.png)) ([graphic of Git operations](https://ddayinc.com/tmp/git-operations.png))
 	  * You modify files in your working directory
 	  * `add`:  You stage the files, adding snapshots of them to your staging area
 	  * `commit`:  You do a commit, which takes the files as they are in the staging area and stores that snapshot permanently to your Git directory
@@ -44,7 +44,7 @@ Provides the ability to version files, code in collaboration with others, create
 **fork** | A fork is a copy of a repository. Forking a repository allows you to freely experiment with changes without affecting the original project. Most commonly, forks are used to either propose changes to someone else's project or to use someone else's project as a starting point for your own idea. More info at [GitHub fork help](https://help.github.com/articles/fork-a-repo/)
 
 
-### Some example actions (work in progress):
+### Some example actions (work in progress) -- or, see "tutorial introduction to Git" link below:
 
 0. config user name and email address for Git:
 
@@ -73,11 +73,13 @@ Provides the ability to version files, code in collaboration with others, create
 
 * the Pro Git book, [http://git-scm.com/book/en/v2](http://git-scm.com/book/en/v2)
 * Git reference, [http://git-scm.com/docs](http://git-scm.com/docs)
+	* tutorial introduction to Git, [https://git-scm.com/docs/gittutorial](https://git-scm.com/docs/gittutorial)
+	* overview of recommended workflows with Git, [https://git-scm.com/docs/gitworkflows](https://git-scm.com/docs/gitworkflows)
 * posh-git, a PSModule for improved Git/PowerShell experience [https://github.com/dahlbyk/posh-git/releases](https://github.com/dahlbyk/posh-git/releases)
 
 ### Other helpful links:
 
 * MarkDown syntax reference, [http://daringfireball.net/projects/markdown/syntax](http://daringfireball.net/projects/markdown/syntax)
-* Visual Studio Code, an open, free, robust editor that includes (among many things) Markdown editing/rendering [https://code.visualstudio.com/](https://code.visualstudio.com/)
+* Visual Studio Code, an open, free, cross-platform, robust editor that includes (among many things) Markdown editing/rendering [https://code.visualstudio.com/](https://code.visualstudio.com/)
 * [dillinger.io](http://dillinger.io/), an online MarkDown editor/renderer; consider your data privacy before using this online editor (not sure of how the data is retained at that site)
 * "[A successful Git branching model](http://nvie.com/posts/a-successful-git-branching-model/)" by Vincent Driessen, a good post on one Git branching strategy that works
