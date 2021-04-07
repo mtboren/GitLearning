@@ -1,4 +1,4 @@
-## GitHub things ##
+# GitHub things
 
 ### Social Coding
 - GitHub is a "web-based hosting service for version control using Git", as so eloquently put in the [GitHub Wikipedia page](https://en.wikipedia.org/wiki/GitHub)
