@@ -14,7 +14,7 @@ Provides the ability to version files, code in collaboration with others, create
 	  * Committed means that the data is safely stored in your local database (in the .git directory)
 	  * Modified means that you have changed the file but have not committed it to your database yet (changed in working directory)
 	  * Staged means that you have marked a modified file in its current version to go into your next commit snapshot
-  * The basic Git workflow goes something like this: ([reference](https://git-scm.com/book/en/v2/Getting-Started-Git-Basics)) ([nice graphic](https://git-scm.com/book/en/v2/book/01-introduction/images/areas.png)) ([graphic of Git operations](https://ddayinc.com/tmp/git-operations.png))
+  * The basic Git workflow goes something like this: ([reference](https://git-scm.com/book/en/v2/Getting-Started-Git-Basics)) ([nice graphic](https://git-scm.com/book/en/v2/book/01-introduction/images/areas.png)) ([graphic of Git operations](./resources/git-operations.png))
 	  * You modify files in your working directory
 	  * `add`:  You stage the files, adding snapshots of them to your staging area
 	  * `commit`:  You do a commit, which takes the files as they are in the staging area and stores that snapshot permanently to your Git directory
@@ -31,7 +31,7 @@ Provides the ability to version files, code in collaboration with others, create
 [**init**](http://git-scm.com/docs/git-init) | create an empty Git repository - basically a .git directory with subdirectories for objects, refs/heads, refs/tags, and template files. An initial HEAD file that references the HEAD of the master branch is also created
 [**diff**](http://git-scm.com/docs/git-diff) | show changes between between two (or more) somethings -- two files, two file versions, two commits, files in the working directory and those in a commit, etc
 [**add**](http://git-scm.com/docs/git-add) | update the staging area ("index") using the current content found in the working tree, to prepare the content staged for the next commit
-[**status**](http://git-scm.com/docs/git-status) | show the working tree state 
+[**status**](http://git-scm.com/docs/git-status) | show the working tree state
 [**commit**](http://git-scm.com/docs/git-commit) | store in the repository the current contents of the staging area ("index") in a new commit along with a log message from the user describing the changes
 [**remote**](http://git-scm.com/docs/git-remote) | remote repositories ("remotes") whose branches the local repo is configured to track
 [**push**](http://git-scm.com/docs/git-push) | update remote refs (repos) using local refs, while sending objects necessary to complete the given refs
