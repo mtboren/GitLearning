@@ -82,4 +82,4 @@ Provides the ability to version files, code in collaboration with others, create
 * MarkDown syntax reference, [http://daringfireball.net/projects/markdown/syntax](http://daringfireball.net/projects/markdown/syntax)
 * Visual Studio Code, an open, free, cross-platform, robust editor that includes (among many things) Markdown editing/rendering [https://code.visualstudio.com/](https://code.visualstudio.com/)
 * [dillinger.io](http://dillinger.io/), an online MarkDown editor/renderer; consider your data privacy before using this online editor (not sure of how the data is retained at that site)
-* "[A successful Git branching model](http://nvie.com/posts/a-successful-git-branching-model/)" by Vincent Driessen, a good post on one Git branching strategy that works
+
